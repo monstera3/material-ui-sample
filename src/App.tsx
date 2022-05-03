@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import HomeIcon from '@mui/icons-material/Home';
 import { HomeRepairService } from '@mui/icons-material';
 import styled from 'styled-components';
+import { ToggleButtons } from './components/ToggleButtons';
 
 
 
@@ -29,6 +30,9 @@ export const App = () => {
       <HomeIcon/>
       <HomeRepairService/>
       <StyledButton>Customized</StyledButton>
+
+      <ToggleButtons/>
+
     </>
 
   );
